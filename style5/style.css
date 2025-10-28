@@ -1,0 +1,31 @@
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #888; /* fondo gris */
+      font-family: Arial, sans-serif;
+    }
+
+    .contenedor {
+      display: flex;
+      background-color: white;
+      height: 90vh;
+    }
+
+    .columna-izquierda {
+      flex: 2;
+      background-color: #0d706d; /* verde azulado */
+      color: white;
+      padding: 10px;
+    }
+
+    .columna-derecha {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .derecha-alta, .derecha-baja {
+      flex: 1;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
